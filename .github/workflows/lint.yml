@@ -40,5 +40,5 @@ jobs:
         with:
           ref: swift-5.6.3-RELEASE
 
-          #- name: SwiftFormat
-          #run: swift-format lint -rs --configuration .swiftformat.json Sources Tests
+      - name: SwiftFormat
+        run: swift-format lint -rs --configuration .swiftformat.json Sources Tests
